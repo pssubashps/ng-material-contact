@@ -1,0 +1,34 @@
+@import "../../_variables";
+section{
+    margin-top: 5rem;
+}
+form {
+    width: 100%;
+    .mat-card {
+       background: $secondaryColor;
+        color: $primaryColor !important;
+        mat-form-field{
+            width: 100%;
+        }
+      
+    }
+    
+}
+mat-label{
+    color: $primaryColor;
+    .mat-focused {
+        color: $primaryColor;
+        
+       
+        
+      }
+      .mat-form-field-appearance-fill.mat-form-field-underline::before {
+        background-color: green !important;
+    }
+      
+     
+}
+.mat-form-field-appearance-fill.mat-form-field-underline::before {
+    background-color: green !important;
+}
+

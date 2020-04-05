@@ -1,1 +1,40 @@
 /* You can add global styles to this file, and also import other style files */
+@import "variables";
+html, body { height: 100%; }
+body { 
+  margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; 
+  background: $secondaryColor
+}
+:host {
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+    font-size: 14px;
+    color: #333;
+    box-sizing: border-box;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+
+  .mat-input-field-placeholder{
+
+    color: $primaryColor !important;
+  }
+  
+  .mat-focused.mat-form-field.mat-form-field-label{
+  
+    color: $primaryColor !important;
+  }
+
+  ::ng-deep .mat-form-field-underline .mat-form-field-ripple{
+
+    background-color:red !important;
+  }
+  
+  ::ng-deep .mat-form-field-underline{
+  
+    background-color:red !important;
+  }
+  ::ng-deep .mat-form-field-label{
+    color:#000 !important;
+}
+
+
